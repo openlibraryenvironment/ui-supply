@@ -1,0 +1,37 @@
+{
+  "name": "@folio/supply",
+  "version": "1.0.0",
+  "description": "Supply resources for ILL",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@folio/rs": "^1.1.0"
+  },
+  "stripes": {
+    "actsAs": ["app"],
+    "displayName": "ui-supply.meta.title",
+    "route": "/supply",
+    "queryResource": "query",
+    "icons": [
+      {
+        "name": "app",
+        "alt": "Supply items in response to ILL requests",
+        "title": "Supply"
+      }
+    ],
+    "permissionSets": [
+      {
+        "permissionName": "module.supply.enabled",
+        "displayName": "UI: supply module is enabled",
+        "visible": true
+      },
+      {
+        "permissionName": "settings.supply.enabled",
+        "displayName": "Settings (supply): display list of settings pages",
+        "subPermissions": [
+          "settings.enabled"
+        ],
+        "visible": true
+      }
+    ]
+  }
+}
