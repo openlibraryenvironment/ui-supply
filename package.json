@@ -19,6 +19,11 @@
         "title": "Supply"
       }
     ],
+    "stripesDeps": [
+      "@folio/rs",
+      "@folio/stripes-erm-components",
+      "@folio/stripes-reshare"
+    ],
     "permissionSets": [
       {
         "permissionName": "module.supply.enabled",
