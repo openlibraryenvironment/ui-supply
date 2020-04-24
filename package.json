@@ -28,6 +28,9 @@
       {
         "permissionName": "module.supply.enabled",
         "displayName": "UI: supply module is enabled",
+        "subPermissions": [
+          "tags.collection.get"
+        ],
         "visible": true
       },
       {
