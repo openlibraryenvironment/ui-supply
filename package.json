@@ -40,6 +40,30 @@
           "settings.enabled"
         ],
         "visible": true
+      },
+      {
+        "permissionName": "ui-supply.view",
+        "displayName": "Supply: View requests",
+        "subPermissions": [
+          "rs.patronrequests.read"
+        ],
+        "visible": "true"
+      },
+      {
+        "permissionName": "ui-supply.create",
+        "displayName": "Supply: Create requests",
+        "subPermissions": [
+          "rs.patronrequests.item.post"          
+        ],
+        "visible": "true"
+      },
+      {
+        "permissionName": "ui-supply.edit",
+        "displayName": "Supply: Edit requests",
+        "subPermissions": [
+          "rs.patronrequests.item.put"
+        ],
+        "visible": "true"
       }
     ]
   }
