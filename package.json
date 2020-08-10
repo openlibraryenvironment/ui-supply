@@ -53,7 +53,7 @@
         "permissionName": "ui-supply.create",
         "displayName": "Supply: Create requests",
         "subPermissions": [
-          "rs.patronrequests.item.post"          
+          "rs.patronrequests.item.post"
         ],
         "visible": "true"
       },
