@@ -29,7 +29,7 @@
         "permissionName": "module.supply.enabled",
         "displayName": "UI: supply module is enabled",
         "subPermissions": [
-          "tags.collection.get"
+          "ui-supply.view"
         ],
         "visible": true
       },
@@ -45,9 +45,11 @@
         "permissionName": "ui-supply.view",
         "displayName": "Supply: View requests",
         "subPermissions": [
-          "rs.patronrequests.read"
+          "rs.patronrequests.read",
+          "configuration.entries.collection.get",
+          "tags.collection.get"
         ],
-        "visible": "true"
+        "visible": "false"
       },
       {
         "permissionName": "ui-supply.create",
