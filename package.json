@@ -46,6 +46,7 @@
         "displayName": "Supply: View requests",
         "subPermissions": [
           "rs.patronrequests.read",
+          "rs.refdata.get",
           "configuration.entries.collection.get",
           "tags.collection.get"
         ],
