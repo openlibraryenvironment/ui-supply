@@ -34,14 +34,6 @@
         "visible": true
       },
       {
-        "permissionName": "settings.supply.enabled",
-        "displayName": "Settings (supply): display list of settings pages",
-        "subPermissions": [
-          "settings.enabled"
-        ],
-        "visible": true
-      },
-      {
         "permissionName": "ui-supply.view",
         "displayName": "Supply: View requests",
         "subPermissions": [
