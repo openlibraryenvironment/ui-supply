@@ -1,10 +1,10 @@
 {
   "name": "@folio/supply",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Supply resources for ILL",
   "license": "Apache-2.0",
   "dependencies": {
-    "@folio/rs": "^1.1.0"
+    "@folio/rs": "^1.2.0"
   },
   "stripes": {
     "actsAs": ["app"],
