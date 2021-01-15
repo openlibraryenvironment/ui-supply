@@ -50,7 +50,7 @@
         "subPermissions": [
           "rs.patronrequests.item.post"
         ],
-        "visible": "true"
+        "visible": "false"
       },
       {
         "permissionName": "ui-supply.edit",
@@ -58,7 +58,7 @@
         "subPermissions": [
           "rs.patronrequests.item.put"
         ],
-        "visible": "true"
+        "visible": "false"
       }
     ]
   }
