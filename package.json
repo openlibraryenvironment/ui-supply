@@ -58,7 +58,7 @@
         "subPermissions": [
           "rs.patronrequests.item.put"
         ],
-        "visible": "false"
+        "visible": "true"
       }
     ]
   }
