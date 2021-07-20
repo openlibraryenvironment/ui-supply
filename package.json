@@ -37,6 +37,7 @@
         "permissionName": "ui-supply.view",
         "displayName": "Supply: View requests",
         "subPermissions": [
+          "rs.hostlmslocations.get",
           "rs.patronrequests.read",
           "rs.refdata.get",
           "configuration.entries.collection.get",
