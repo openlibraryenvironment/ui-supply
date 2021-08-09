@@ -4,7 +4,7 @@
   "description": "Supply resources for ILL",
   "license": "Apache-2.0",
   "dependencies": {
-    "@reshare/rs": "^1.4.0"
+    "@reshare/rs": "^1.5.0"
   },
   "stripes": {
     "actsAs": ["app"],
