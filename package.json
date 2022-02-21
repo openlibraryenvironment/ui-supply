@@ -10,8 +10,7 @@
     "actsAs": ["app"],
     "displayName": "ui-supply.meta.title",
     "route": "/supply",
-    "home": "/supply/requests?sort=-dateCreated",
-    "queryResource": "query",
+    "home": "/supply/requests?filters=terminal.false&sort=-dateCreated",
     "icons": [
       {
         "name": "app",
