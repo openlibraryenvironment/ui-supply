@@ -36,9 +36,12 @@
         "permissionName": "ui-supply.view",
         "displayName": "Supply: View requests",
         "subPermissions": [
+          "rs.batch.get",
           "rs.hostlmslocations.get",
+          "rs.patronrequests.generateBatch",
           "rs.patronrequests.read",
           "rs.refdata.get",
+          "rs.report.execute",
           "rs.status.get",
           "configuration.entries.collection.get",
           "tags.collection.get"
@@ -57,7 +60,9 @@
         "permissionName": "ui-supply.edit",
         "displayName": "Supply: Edit requests",
         "subPermissions": [
-          "rs.patronrequests.item.put"
+          "rs.patronrequests.item.put",
+          "rs.patronrequests.item.performaction",
+          "rs.patronrequests.markBatchPrinted"
         ],
         "visible": "true"
       }
