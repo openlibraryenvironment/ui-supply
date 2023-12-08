@@ -1,10 +1,10 @@
 {
-  "name": "@reshare/supply",
-  "version": "1.6.0",
+  "name": "@projectreshare/supply",
+  "version": "1.6.1",
   "description": "Supply resources for ILL",
   "license": "Apache-2.0",
   "dependencies": {
-    "@reshare/rs": "^1.6.0"
+    "@projectreshare/rs": "^1.6.0"
   },
   "stripes": {
     "actsAs": ["app"],
@@ -19,9 +19,9 @@
       }
     ],
     "stripesDeps": [
-      "@reshare/rs",
+      "@projectreshare/rs",
       "@folio/stripes-erm-components",
-      "@reshare/stripes-reshare"
+      "@projectreshare/stripes-reshare"
     ],
     "permissionSets": [
       {
