@@ -1,6 +1,6 @@
 {
   "name": "@projectreshare/supply",
-  "version": "1.6.1",
+  "version": "1.6.4",
   "description": "Supply resources for ILL",
   "license": "Apache-2.0",
   "dependencies": {
