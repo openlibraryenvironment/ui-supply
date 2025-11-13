@@ -25,6 +25,11 @@ jobs:
           registry-url: ${{ env.RESHARE_NPM_REGISTRY }}
           scope: '@projectreshare'
 
+      - name: Upgrade npm to version that supports trusted publishing
+        run: |
+          npm install -g npm@^11.5.1
+          npm -v
+
       - name: Set yarn config
         run: |
           yarn config set @folio:registry ${{ env.FOLIO_NPM_REGISTRY }}
